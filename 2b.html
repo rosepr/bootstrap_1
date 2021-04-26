@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .material-icons.md-18 {
+            font-size: 18px;
+            vertical-align: middle;
+        }
+
+        .material-icons {
+            vertical-align: middle;
+        }
+
+        #hover {
+            cursor: pointer;
+        }
+
+        i:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h3>Design rating display for a product</h3>
+        <span class="badge badge-success">4.4<i class="material-icons md-18">grade</i></span>
+        <span class="badge badge-warning">3.5<i class="material-icons md-18">grade</i></span>
+        <span class="badge badge-danger">2.5<i class="material-icons md-18">grade</i></span>
+        <h3>Design display of Price for a product</h3>
+        <p> Rs. 200.00 <small><strike>Rs. 250.00</strike></small> 20% <i class="material-icons md-18">new_releases</i></p>
+        <h3>Design Add to Cart and Favorite for a product</h3>
+        <a href="#" class="btn btn-primary"><i class="material-icons md-18">add_shopping_cart</i>Add to Cart</a>
+        <i class="material-icons" id="hover">favorite_border</i>
+        <h3>Displaying a Product using Card</h3>
+        <div class="card text-left" style="width:18rem">
+            <img src="CoCoOil.jpg" alt="Coco oil">
+            <div class="card-body">
+                <h5 class="card-title">Coco Oil (200g)<span class="badge badge-success">4.4<i class="material-icons md-18">grade</i></span></h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                    <p> Rs. 200.00 <small><strike>Rs. 250.00</strike></small> 20% <i class="material-icons md-18">new_releases</i></p>
+                </h6>
+                <p class="card-text">
+                    Escape is an innovative, skin-loving formulation, formulated
+                    with certified Fair Trade Cold Pressed Organic Coconut Oil,
+                    produced sustainably in the Pacific islands and supporting
+                    local communities.
+                </p>
+            </div>
+            <div class="card-body">
+                <a href=# class="btn btn-primary"><i class="material-icons">add_shopping_cart</i>Add to Cart</a>
+                <i class="material-icons" id="hover">favorite_border</i>
+            </div>
+        </div>
+    </center>
+
+</body>
+</html>
